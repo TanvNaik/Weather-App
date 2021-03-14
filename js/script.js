@@ -11,7 +11,7 @@ const apiKey = "067e7a286e6c04ab88973031b8f4ffae";
 async function main(location) {
   // Fetching and Storing data
   const response = await fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`
+    `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`
   );
   const data = await response.json();
 
