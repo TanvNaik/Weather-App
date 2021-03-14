@@ -24,7 +24,6 @@ async function main(location) {
 
 search.addEventListener("click", (e) => {
   const child = e.target.matches(".checked");
-  console.log(child);
   if (child) {
     let location = document.getElementById("location");
 
